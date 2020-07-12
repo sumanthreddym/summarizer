@@ -1,0 +1,12 @@
+modules:
+  macro:
+    - key: qr-code-qr-code
+      function: main
+      title: Summarizer
+      description: Summarizes page content
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: "ari:cloud:ecosystem::app/da1e9076-220b-47d5-9863-e17263f1b840"
+  name: Summarizer
